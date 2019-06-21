@@ -4,63 +4,61 @@ A tool to create chapter markers based on the information found in the scene ind
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You can clone the project if you want to do any modifications. If you want to use it right away, an executable jar file can be found inside the "target" folder.
 
-### Prerequisites
+## Instructions
 
-What things you need to install the software and how to install them
+In the "File Name" field, place the name you'd like for your file, for example "chaptertrack". Then copy the information from the index section of any movie found in Barnes and Noble website in the big text field.
 
-```
-Give examples
-```
+Example of index section information:
 
-### Installing
+1. Chapter 1 [8:33]
+2. Chapter 2 [8:17]
+3. Chapter 3 [10:27]
+4. Chapter 4 [11:51]
+5. Chapter 5 [9:34]
+6. Chapter 6 [4:01]
+7. Chapter 7 [7:34]
+8. Chapter 8 [10:35]
+9. Chapter 9 [8:13]
+10. Chapter 10 [10:52]
+11. Chapter 11 [10:16]
+12. Chapter 12 [8:40]
 
-A step by step series of examples that tell you how to get a development env running
+Finally, press the "Generate" button. The text file with the chapter markers will be located in the same directory where you placed the executable jar file.
 
-Say what the step will be
+Example of final result:
 
-```
-Give the example
-```
+CHAPTER01=00:00:00.000
+CHAPTER01NAME=Chapter 1
+CHAPTER02=00:08:33.000
+CHAPTER02NAME=Chapter 2
+CHAPTER03=00:16:50.000
+CHAPTER03NAME=Chapter 3
+CHAPTER04=00:27:17.000
+CHAPTER04NAME=Chapter 4
+CHAPTER05=00:39:08.000
+CHAPTER05NAME=Chapter 5
+CHAPTER06=00:48:42.000
+CHAPTER06NAME=Chapter 6
+CHAPTER07=00:52:43.000
+CHAPTER07NAME=Chapter 7
+CHAPTER08=01:00:17.000
+CHAPTER08NAME=Chapter 8
+CHAPTER09=01:10:52.000
+CHAPTER09NAME=Chapter 9
+CHAPTER10=01:19:05.000
+CHAPTER10NAME=Chapter 10
+CHAPTER11=01:29:57.000
+CHAPTER11NAME=Chapter 11
+CHAPTER12=01:40:13.000
+CHAPTER12NAME=Chapter 12
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+The generated text file is ready to add to Subler or other similar programs.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Java
 
 ## Authors
 
@@ -68,4 +66,4 @@ Carlos Antonio Martinez Vélez
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
